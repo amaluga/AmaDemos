@@ -1,0 +1,11 @@
+{
+    "Name": "CK_ROLE_PS role for limiting automation pipeline permissions",
+    "Description": "Custom Role Created Using CloudKnox Security Platform!",
+    "Actions": [
+        "Microsoft.Automation/automationAccounts/*/read",
+        "Microsoft.Automation/automationAccounts/runbooks/draft/write"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/<subscriptionId>/"
+    ]
+}

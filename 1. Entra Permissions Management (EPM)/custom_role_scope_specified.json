@@ -1,0 +1,14 @@
+{
+    "Name": "CK_ROLE_PS role for limiting automation pipeline permissions_test_for_specified_automationaccounts",
+    "Description": "Custom Role Created Using CloudKnox Security Platform!",
+    "Actions": [
+        "Microsoft.Automation/automationAccounts/*/read",
+        "Microsoft.Automation/automationAccounts/runbooks/draft/write"
+    ],
+    "AssignableScopes": [
+        "/subscriptions/<subscriptionId>/resourceGroups/rg-p-test_aa_ghmanaged/providers/Microsoft.Automation/automationAccounts/aa-p-test3",
+        "/subscriptions/<subscriptionId>/resourceGroups/rg-p-test_aa_ghmanaged/providers/Microsoft.Automation/automationAccounts/aa-p-test2",
+        "/subscriptions/<subscriptionId>/resourceGroups/rg-p-test_aa_ghmanaged/providers/Microsoft.Automation/automationAccounts/aa-p-test1"
+
+    ]
+}
